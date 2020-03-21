@@ -40,7 +40,7 @@ public class MaxArea {
             for (int j = 0; j < grid[i].length; j++) {
                 queue.add(new int[]{i,j});//每次都入队
                 //计算最大的面积
-                int currMaxArea = 0;
+                int currMaxArea = 1;
                 while (!queue.isEmpty()){
                     //如果队列不为空
                     int size = queue.size();//
